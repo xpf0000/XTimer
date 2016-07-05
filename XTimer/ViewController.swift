@@ -12,12 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
+    @IBAction func click(sender: UIButton) {
+        
+        let vc = VC1()
+        
+        self.showViewController(vc, sender: nil)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        
     }
 
 

@@ -12,6 +12,10 @@
 		175E26DB1D2B34670077490A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175E26D91D2B34670077490A /* Main.storyboard */; };
 		175E26DD1D2B34670077490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175E26DC1D2B34670077490A /* Assets.xcassets */; };
 		175E26E01D2B34670077490A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175E26DE1D2B34670077490A /* LaunchScreen.storyboard */; };
+		175E26E91D2B34A30077490A /* XTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E26E81D2B34A30077490A /* XTimer.swift */; };
+		175E26EB1D2B35C80077490A /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E26EA1D2B35C80077490A /* VC1.swift */; };
+		175E26EE1D2B3A030077490A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E26EC1D2B3A030077490A /* TableViewCell.swift */; };
+		175E26EF1D2B3A030077490A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 175E26ED1D2B3A030077490A /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		175E26DC1D2B34670077490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		175E26DF1D2B34670077490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		175E26E11D2B34670077490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175E26E81D2B34A30077490A /* XTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTimer.swift; sourceTree = "<group>"; };
+		175E26EA1D2B35C80077490A /* VC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		175E26EC1D2B3A030077490A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		175E26ED1D2B3A030077490A /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,24 @@
 		175E26D41D2B34670077490A /* XTimer */ = {
 			isa = PBXGroup;
 			children = (
+				175E26E71D2B348F0077490A /* XTimer */,
 				175E26D51D2B34670077490A /* AppDelegate.swift */,
 				175E26D71D2B34670077490A /* ViewController.swift */,
+				175E26EA1D2B35C80077490A /* VC1.swift */,
+				175E26EC1D2B3A030077490A /* TableViewCell.swift */,
+				175E26ED1D2B3A030077490A /* TableViewCell.xib */,
 				175E26D91D2B34670077490A /* Main.storyboard */,
 				175E26DC1D2B34670077490A /* Assets.xcassets */,
 				175E26DE1D2B34670077490A /* LaunchScreen.storyboard */,
 				175E26E11D2B34670077490A /* Info.plist */,
+			);
+			path = XTimer;
+			sourceTree = "<group>";
+		};
+		175E26E71D2B348F0077490A /* XTimer */ = {
+			isa = PBXGroup;
+			children = (
+				175E26E81D2B34A30077490A /* XTimer.swift */,
 			);
 			path = XTimer;
 			sourceTree = "<group>";
@@ -123,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				175E26E01D2B34670077490A /* LaunchScreen.storyboard in Resources */,
+				175E26EF1D2B3A030077490A /* TableViewCell.xib in Resources */,
 				175E26DD1D2B34670077490A /* Assets.xcassets in Resources */,
 				175E26DB1D2B34670077490A /* Main.storyboard in Resources */,
 			);
@@ -135,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175E26EE1D2B3A030077490A /* TableViewCell.swift in Sources */,
+				175E26E91D2B34A30077490A /* XTimer.swift in Sources */,
 				175E26D81D2B34670077490A /* ViewController.swift in Sources */,
+				175E26EB1D2B35C80077490A /* VC1.swift in Sources */,
 				175E26D61D2B34670077490A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
